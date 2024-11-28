@@ -4,7 +4,7 @@ import { BookmarkIcon } from "@radix-ui/react-icons"
 export default function MyApp() {
 	return (
 		<Flex direction="column" gap="2">
-			<Text>Radix Themes</Text>
+			<Text>Radix komponent eksempel</Text>
             <Button variant="soft">
 		<BookmarkIcon /> Bookmark
 	</Button>
