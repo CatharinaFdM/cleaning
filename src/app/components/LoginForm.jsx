@@ -1,7 +1,6 @@
 "use client"
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import '../globals.css';
 
 const Login = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
