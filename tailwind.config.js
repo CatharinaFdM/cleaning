@@ -12,6 +12,9 @@ module.exports = {
         darkblue: "#001965",
         white: "#FFFFFF",
         lightblue: "#E6E8F0",
+        red: "#E6553F",
+        yellow: "#EAAB00",
+        green: "#3F9C35",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -55,7 +58,7 @@ module.exports = {
         1920: "1920px"
       },
       borderRadius: {
-        12: "12px",
+        10: "10px",
         15: "15px",
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",

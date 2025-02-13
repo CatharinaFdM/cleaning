@@ -6,7 +6,7 @@ const Header = () => {
   return <header className='bg-darkblue text-white w-1920 p-2'>
     <nav className="flex justify-between items-center px-4  mx-auto">
       <div>
-      <Link href="/" className=""><img src="/img/NN_logo.svg" alt="NN logo"/></Link>
+      <Link href="/"><img src="/img/NN_logo.svg" alt="NN logo"/></Link>
       </div><div>
       <ul className="flex gap-20">
         <li className="p-5"><Link href="/schedule">Schedule</Link></li>

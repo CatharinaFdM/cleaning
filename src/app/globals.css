@@ -20,3 +20,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   max-width: fit-content;
 }
+
+.blur-background {
+  backdrop-filter: blur(sm);
+  background-color: rgba(216, 216, 216, 0.936);
+}
