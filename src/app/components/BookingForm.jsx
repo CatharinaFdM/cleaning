@@ -1,12 +1,16 @@
 "use client"
 import React from 'react';
+import Date from "./Date";
+import RoomDropdown from './RoomDropdown';
+
 const Booking = () => {
   return (
-    <div className='text-darkblue flex flex-col gap-5 w-[400px] p-5 border'>
+    <div className='text-darkblue flex flex-col gap-5 w-[400px] p-5 border rounded-10'>
 <h1 className='font-bold'>New Booking</h1>
-
-{/* indsæt dato og rum vælger */}
-
+<div className='flex gap-2'>
+<Date/>
+<RoomDropdown/>
+</div>
 <form action="" className='flex flex-col'>
     <label>
         <input type="checkbox" name="Extra cleaning KS"className='mr-2'/>Extra cleaning KS

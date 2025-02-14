@@ -9,7 +9,7 @@ const DateDropdown = () => {
   return (
     <div className="flex flex-col place-self-start text-darkblue">
       <label htmlFor="datepicker">Select a Date</label>
-      <div className="border flex items-baseline rounded-10">
+      <div className="border flex items-baseline rounded-10 max-w-120">
       <FaCalendarAlt className="m-2"/>
       <DatePicker className="selected={bg-darkblue}" id="datepicker" closeOnScroll={true} selected={startDate} onChange={(date) => setStartDate(date)} dateFormat={'dd-MM-yyyy'}
           calendarClassName="bg-darkblue"/>

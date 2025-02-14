@@ -12,7 +12,7 @@ const Login = () => {
     <div className="backdrop-blur-lg flex justify-center">
       <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col flex-start text-darkblue p-5 h-auto w-[300px] rounded-15 bg-white border border-1'>
         <label>Username</label>
-        <input {...register("username", { required: true, minLength: 1, maxLength: 4 })}maxLength={4} className='border border-1 p-2 mb-2 mt-2 rounded-10' type="text" placeholder='Initials' />
+        <input {...register("username", { required: true, minLength: 1, maxLength: 4, pattern: /^[A-Za-z]+$/i})}maxLength={4} className='border border-1 p-2 mb-2 mt-2 rounded-10' type="text" placeholder='Initials' />
         {errors.username && <span className='text-red mb-5'>Please enter 1-4 characters</span>}
         <label>Password</label>
         <input {...register("password", { required: true, minLength: 6 })} className='border border-1 p-2 mb-2 mt-2 rounded-10' type="password" placeholder='*****' />

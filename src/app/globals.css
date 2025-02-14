@@ -21,5 +21,8 @@ body {
   max-width: fit-content;
 }
 
-
+#roomFilter option:hover {
+  background-color: darkblue;
+  color: white;
+}
 

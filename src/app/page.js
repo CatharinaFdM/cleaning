@@ -2,7 +2,7 @@ import React from 'react';
 import Header from "./components/Header";
 import LoginForm from './components/LoginForm';
 import BookingForm from './components/BookingForm';
-import Date from "./components/Date";
+import RoomDropdown from './components/RoomDropdown';
 
 
 
@@ -10,8 +10,8 @@ export default function () {
 	return (<div>
 			<Header/>
 			{/* <LoginForm/> */}
-{/* 			<BookingForm/>
- */}			<Date/>
+			<BookingForm/>
+			{/* <RoomDropdown/> */}
 			</div>
 	);
 }

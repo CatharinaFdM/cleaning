@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from 'react';
 
 const Header = () => {
-  return <header className='bg-darkblue text-white w-1920 p-2'>
+  return <header className='bg-darkblue text-white w-[1280px] p-2'>
     <nav className="flex justify-between items-center px-4  mx-auto">
       <div>
       <Link href="/"><img src="/img/NN_logo.svg" alt="NN logo"/></Link>
