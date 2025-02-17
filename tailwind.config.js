@@ -55,7 +55,7 @@ module.exports = {
         500: "500px",
         550: "550px",
         700: "700px",
-        1920: "1920px"
+        1280: "1280px"
       },
       borderRadius: {
         10: "10px",
@@ -69,7 +69,7 @@ module.exports = {
         sm: "680px",
         md: "888px",
         lg: "1284px",
-        xl: "1920px",
+        xl: "1280px",
       },
 
     },
