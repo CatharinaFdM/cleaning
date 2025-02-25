@@ -6,6 +6,7 @@ import RoomDropdown from './components/RoomDropdown';
 import Legend from './components/Legend';
 import Button from './components/Button';
 import CleaningDone from './components/CleaningDone';
+import BookingSlot from './components/BookingSlot';
 
 
 
@@ -17,8 +18,9 @@ export default function () {
 			{/* <BookingForm/> */}
 			{/* <RoomDropdown/> */}
 			{/* <Button label="Insert button text here"/> */}
-			<CleaningDone/>
-			<Legend/>
+			{/* <CleaningDone/> */}
+			{/* <Legend/> */}
+			<BookingSlot/>
 			</div>
 	);
 }
