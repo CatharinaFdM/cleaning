@@ -1,14 +1,12 @@
 "use client"
 import React from 'react';
-import Date from "./Date";
-import RoomDropdown from './RoomDropdown';
+import RoomDropdown from '../components/RoomDropdown';
 
-const Booking = () => {
+const CleaningDone = () => {
   return (
     <div className='text-darkblue flex flex-col gap-5 w-[400px] p-5 border rounded-10'>
-<h1 className='font-bold'>New Request</h1>
+<h1 className='font-bold'>Cleaning done</h1>
 <div className='flex gap-2'>
-<Date/>
 <RoomDropdown/>
 </div>
 <form action="" className='flex flex-col'>
@@ -32,11 +30,11 @@ const Booking = () => {
 </label>
 <textarea name="comment" id="comment" className='border'></textarea>
 
-<button type='submit' className='bg-darkblue text-white w-200 rounded-10 p-1 mt-5'>Submit Request</button>
+<button type='submit' className='bg-darkblue text-white w-200 rounded-10 p-1 mt-5'>Submit Response</button>
 
 </form>
     </div>
-  )};
+  );
+};
 
-export default Booking;
-
+export default CleaningDone;
